@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent3"
+        android:id="@+id/main_bg">
+
+        <TextView
+            android:id="@+id/tv_Signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_up"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="30dp"
+            style="@style/signup_haveac"
+            android:shadowColor="@color/text_shadow"
+            android:shadowDx="3"
+            android:shadowDy="3"
+            android:shadowRadius="2"
+
+            />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:id="@+id/tv_Already"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/have_account"
+                android:textColor="@color/ud_white"
+                android:gravity="center_horizontal"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="23dp"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="3"
+                android:shadowDy="3"
+                android:shadowRadius="2"
+                />
+
+        </RelativeLayout>
+
+
+        <!-- Form Overlay #1 -->
+        <RelativeLayout
+            android:id="@+id/form_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/tv_Signup"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginBottom="75dp"
+            android:background="@color/ud_white"
+            android:backgroundTint="@color/ud_white_transparent"
+            >
+
+            <!-- OR Text -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_or"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="@string/orr"
+                    android:textColor="#80000000"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="16dp"
+                    android:layout_toStartOf="@id/tv_or"
+                    android:background="#50000000"
+                    />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="16dp"
+                    android:layout_toEndOf="@id/tv_or"
+                    android:background="#50000000"
+                    />
+
+            </RelativeLayout>
+
+
+            <!-- FULL NAME TEXT -->
+            <TextView
+                android:id="@+id/tv_Fname"
+                style="@style/overlay_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="90dp"
+                android:text="@string/full_name" />
+
+            <!-- FULL NAME FORM -->
+            <EditText
+                android:id="@+id/et_Fname"
+                style="@style/overlay_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/name_hint"
+                android:inputType="textCapWords"
+                android:selectAllOnFocus="false"
+                android:layout_below="@+id/tv_Fname"
+                android:layout_alignParentStart="true" />
+
+            <!-- EMAIL FORM VIEW -->
+            <TextView
+                android:id="@+id/tv_EmailSU"
+                style="@style/overlay_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/et_Fname"
+                android:text="@string/signupemail" />
+
+            <!-- EMAIL FORM FIELD -->
+            <EditText
+                android:id="@+id/et_EmailSU"
+                style="@style/overlay_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_EmailSU"
+                android:hint="@string/email_hint"
+                android:inputType="textEmailAddress"
+                />
+
+            <!-- PASSWORD FORM VIEW -->
+            <TextView
+                android:id="@+id/tv_PassSU"
+                style="@style/overlay_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/et_EmailSU"
+                android:text="@string/passwordSU" />
+
+            <!-- PASSWORD FORM FIELD -->
+            <EditText
+                android:id="@+id/et_PassSU"
+                style="@style/overlay_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_PassSU"
+                android:hint="@string/password_SU"
+                android:inputType="textPassword"
+                />
+
+            <Button
+                android:id="@+id/btn_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="@color/ud_white"
+                android:onClick="btn_submit"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+                android:text="@string/create_account"
+                android:textColor="#00a44d" />
+
+        </RelativeLayout>
+
+        <!-- SOCIAL LOGIN -->
+        <RelativeLayout
+            android:id="@+id/SocialLogin"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:layout_above="@id/form_layout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="-86dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/border_shadow"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                app:srcCompat="@drawable/fb_icon_main_page"
+                android:layout_toLeftOf="@+id/imageView3"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/twitter_icon_main_page"
+                android:layout_centerInParent="true"
+                />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                app:srcCompat="@drawable/gplus_icon_main_page"
+                android:layout_toRightOf="@+id/imageView3"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                />
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+
+

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.frost.register.VerifyMessageActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent3">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="90dp"
+            android:layout_marginBottom="75dp"
+            android:background="@color/ud_white"
+            android:backgroundTint="@color/ud_white_transparent"
+            >
+
+            <TextView
+                android:id="@+id/tv_please_verify"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PLEASE VERIFY YOUR CREDENTIALS"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="40dp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"
+                android:fontFamily="serif"
+                />
+
+
+
+            <TextView
+                android:id="@+id/tv_verify_page_fname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FULL NAME"
+                android:layout_below="@+id/tv_please_verify"
+                android:layout_marginTop="35dp"
+                style="@style/verify_page_shownview_size"
+
+                />
+
+            <TextView
+                android:id="@+id/tv_newmsg1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/verify_page_textview_size"
+                android:text="Full Name"
+                android:layout_below="@+id/tv_verify_page_fname"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                style="@style/verify_page_horizontal_line"
+                android:layout_below="@+id/tv_newmsg1"
+                />
+
+            <TextView
+                android:id="@+id/tv_verify_page_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EMAIL"
+                android:layout_below="@+id/tv_newmsg1"
+                android:layout_marginTop="20dp"
+                style="@style/verify_page_shownview_size"
+
+                />
+
+            <TextView
+                android:id="@+id/tv_newmsg2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:layout_below="@+id/tv_verify_page_email"
+                style="@style/verify_page_textview_size"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                style="@style/verify_page_horizontal_line"
+                android:layout_below="@+id/tv_newmsg2"
+                />
+
+            <TextView
+                android:id="@+id/tv_verify_page_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PASSWORD"
+                android:layout_below="@+id/tv_newmsg2"
+                android:layout_marginTop="20dp"
+                style="@style/verify_page_shownview_size"
+
+                />
+
+            <TextView
+                android:id="@+id/tv_newmsg3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/verify_page_textview_size"
+                android:text="Pass"
+                android:layout_below="@+id/tv_verify_page_password"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                style="@style/verify_page_horizontal_line"
+                android:layout_below="@+id/tv_newmsg3"
+                />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    >
+
+                    <Button
+                        android:id="@+id/btn_verify_page_back"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/ud_white"
+                        android:shadowColor="@color/text_shadow"
+                        android:shadowDx="1"
+                        android:shadowDy="1"
+                        android:shadowRadius="2"
+                        android:text="BACK"
+                        android:textColor="#00a44d"
+                        />
+
+                    <Button
+                        android:layout_toRightOf="@+id/btn_verify_page_back"
+                        android:id="@+id/btn_verify_page_signmeup"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/ud_white"
+                        android:shadowColor="@color/text_shadow"
+                        android:shadowDx="1"
+                        android:shadowDy="1"
+                        android:shadowRadius="2"
+                        android:text="@string/sign_me_up"
+                        android:textColor="#00a44d"
+                        />
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

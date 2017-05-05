@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/frost/.android/build-cache/ee52eff4b97b9975424afa4e4f02b5f1fa546256/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="70f23cb87278f89aa51e6f57e8f0fd5266572d95">
+        <dex dex="/home/frost/AndroidScratch/Register/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3d38284a8630057c73bbe33cf3197c563d816cdf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/frost/.android/build-cache/8677cace49c236adee7f173cf95c801243d91cc3/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="518768f3200963fbfec652f498da2c9d39245234">
+        <dex dex="/home/frost/AndroidScratch/Register/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8cb66b8bf261fae5a671efefc360e2e40f7b7cc9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/frost/AndroidScratch/Register/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="20bc22de6776a2682ade0609a6213cc6d0923942">
+        <dex dex="/home/frost/AndroidScratch/Register/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_4b7973ecddff4ce2507fd9874f50bf6e24a6f314/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/frost/.android/build-cache/71c05e399e1eba21e6feef94b489ab536d3fadec/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
+        <dex dex="/home/frost/AndroidScratch/Register/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_28f9d36fbf664cf13c45aefa7663acead4bf0815/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/frost/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.0/support-annotations-25.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dd84903d2e1af25a6081ef9038ad863cb14ca3a0">
+        <dex dex="/home/frost/AndroidScratch/Register/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.3.0_dbb0826d146ce1b842935bfdf279ec6a5d85db1e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/frost/.android/build-cache/ed97074d4d8ba50bc5ccb6ec924d43b59507f507/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
+        <dex dex="/home/frost/AndroidScratch/Register/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_da7b79dfe3f8756a5743bc596dce0f752ce87fd0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/frost/AndroidScratch/Register/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/home/frost/AndroidScratch/Register/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_8879d75b2d970ffcd01ea3f9776fcf717ca35de7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/frost/.android/build-cache/f0f57f16a21660a3a81202869ad80e5be24d7cef/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/frost/AndroidScratch/Register/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0b6d2c466f995c51c767d5adf67f6e8dc1f847ca/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/frost/.android/build-cache/a2f499ac129298ef499d9268fa0899c6015e88c1/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
+        <dex dex="/home/frost/AndroidScratch/Register/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8d571b63fd6f062a57a4e18d838643c98cfe0baf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/frost/.android/build-cache/1d29d53e79d66b7700e2a43bb515af140b9e5852/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d6a04527c17597019dad82777c5094a3d60d1c33">
+        <dex dex="/home/frost/AndroidScratch/Register/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e354fecf945e9ea56191988f0d3bebacf6d39281/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/frost/.android/build-cache/a2c54fe216b651cc775521f5d9213cd812097e54/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b746ef0fd46acb5aaf3d9ab9a4cec22c28d3211">
+        <dex dex="/home/frost/AndroidScratch/Register/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4833fba04f32e2f16f2b00a31b71a0da034fbe18/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/frost/.android/build-cache/acfa28afd3db20e8e7f43b89b898e1cd5199b4f5/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="425c7b17887e5c3f8cbdf67ba171bc246f29b42c">
+        <dex dex="/home/frost/AndroidScratch/Register/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a41ba8e5a1c2cd382ab99c4eefa65895f95d5dd6/classes.dex" />
+    </item>
+
+</items>
