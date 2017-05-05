@@ -25,7 +25,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="20bc22de6776a2682ade0609a6213cc6d0923942">
+        sha1="da43b095008a96c7124a82de730b0e9b9f010362">
         <dex dex="/home/frost/AndroidScratch/Register/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_4b7973ecddff4ce2507fd9874f50bf6e24a6f314/classes.dex" />
     </item>
     <item
