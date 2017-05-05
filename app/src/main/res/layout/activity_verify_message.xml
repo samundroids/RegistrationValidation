@@ -142,6 +142,7 @@
                         android:shadowRadius="2"
                         android:text="BACK"
                         android:textColor="#00a44d"
+                        android:onClick="btn_verify_page_back"
                         />
 
                     <Button
